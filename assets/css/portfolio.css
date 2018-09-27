@@ -1,0 +1,208 @@
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color:#ffffff;
+    color: #777777;
+    text-align: center;
+    border-bottom: 3px solid #cccccc;
+    height: 100px
+}
+
+#yourname {
+    color: white;
+    background-color: #4aaaa5;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    text: 0 auto;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 200px;
+    top: 0
+}
+
+.links {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-align: center;
+    width: 330px;
+    position: fixed;
+    right: 55px;
+    top: 20px;
+}
+
+
+#about {
+    border-right: 1px solid #cccccc;
+    width: 100px;
+    float: left
+}
+
+#contact {
+    float: left;
+    border-right: 1px solid #cccccc;
+    width: 100px;
+}
+
+#portfolio {
+    float: left;
+    width: 100px;
+}
+
+#about[type=hover] {
+    cursor: pointer;
+}
+
+#about[type=hover]:hover {
+    color: rgb(9, 95, 91);
+}
+
+#contact[type=hover] {
+    cursor: pointer;
+}
+
+#contact[type=hover]:hover {
+    color: rgb(9, 95, 91);
+}
+
+#about[type=hover] {
+    cursor: pointer;
+}
+
+#portfolio[type=hover]:hover {
+    color: rgb(9, 95, 91);
+}
+
+body {
+    background-image: url(file:///C:/Users/The%20Avi%C3%B1as/Desktop/bootcamp/Homework/Basic-Portfolio/assets/images/dust_scratches/dust_scratches.png)
+}
+
+.container {
+    
+    color: #777777;
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    margin-top: 150px;
+    margin-left: 15%;
+    margin-right: 15%
+}
+
+h1 {
+    color: #4aaaa5;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #cccccc;
+    margin-top: 0;
+}
+
+.container1 {
+    position: relative;
+    height: 33%;
+    margin-right: 33%;
+    background-color: #ffffff
+}
+
+#travel {
+    float: left;
+    padding: 0px 50px 35px 0px;
+}
+
+#cooking {
+    padding: 0px 50px 35px 0px;
+}
+
+.traveltext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 220px;
+    bottom: 50px;
+    text-align: center;
+    font-size: 20px
+}
+
+.cooktext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 220px;
+    right: 70px;
+    bottom: 50px;
+    text-align: center;
+    font-size: 20px
+}
+
+.container2 {
+    position: relative;
+    height: 33%;
+    margin-right: 33%;
+    background-color: #ffffff
+}
+
+#DYI {
+    padding: 0px 50px 35px 0px
+}
+
+#GC {
+    padding: 0px 50px 35px 0px
+}
+
+.DYItext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 220px;
+    bottom: 50px;
+    text-align: center;
+    font-size: 20px
+}
+
+.GCtext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 220px;
+    right: 66px;
+    bottom: 50px;
+    text-align: center;
+    font-size: 20px
+}
+
+.container3 {
+    position: relative;
+    height: 33%;
+    margin-right: 33%;
+    background-color: #ffffff
+}
+
+#publications {
+    padding: 0px 50px 35px 0px
+}
+
+.pubtext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 220px;
+    bottom: 50px;
+    text-align: center;
+    font-size: 20px
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#666666;
+    color: white;
+    text-align: center;
+    border-top: 7px solid #4aaaa5
+}
+

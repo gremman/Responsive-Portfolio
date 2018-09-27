@@ -1,0 +1,140 @@
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color:#ffffff;
+    color: #777777;
+    text-align: center;
+    border-bottom: 3px solid #cccccc;
+    height: 100px
+}
+
+#yourname {
+    color: white;
+    background-color: #4aaaa5;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    text: 0 auto;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 200px;
+    top: 0
+}
+
+.links {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-align: center;
+    width: 330px;
+    position: fixed;
+    right: 55px;
+    top: 20px;
+}
+
+#about {
+    border-right: 1px solid #cccccc;
+    width: 100px;
+    float: left
+}
+
+#contact {
+    float: left;
+    border-right: 1px solid #cccccc;
+    width: 100px;
+}
+
+#portfolio {
+    float: left;
+    width: 100px;
+}
+
+#about[type=hover] {
+    cursor: pointer;
+}
+
+#about[type=hover]:hover {
+    color: rgb(9, 95, 91);
+}
+
+#contact[type=hover] {
+    cursor: pointer;
+}
+
+#contact[type=hover]:hover {
+    color: rgb(9, 95, 91);
+}
+
+#about[type=hover] {
+    cursor: pointer;
+}
+
+#portfolio[type=hover]:hover {
+    color: rgb(9, 95, 91);
+}
+
+body {
+    background-image: url(file:///C:/Users/The%20Avi%C3%B1as/Desktop/bootcamp/Homework/Basic-Portfolio/assets/images/dust_scratches/dust_scratches.png)
+}
+
+.container {
+    position: absolute;
+    color: #777777;
+    font-family: "sans-serif";
+    font-size: 20px;
+    line-height: 28px;
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    margin-top: 150px;
+    margin-left: 15%;
+    margin-right: 15%
+}
+
+h1 {
+    color: #4aaaa5;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #cccccc;
+    margin-top: 0;
+}
+
+#aboutmepic {
+    float: left;
+    padding-right: 20px
+}
+
+#bio {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#666666;
+    color: white;
+    text-align: center;
+    border-top: 7px solid #4aaaa5
+}
+
+/* Small devices (landscape phones) */
+@media (min-width: 640px) {
+    .header
+    }
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) { 
+    .header
+    }
+
+/* // Large devices (desktops) */
+@media (min-width: 980px) {
+    .header
+}
