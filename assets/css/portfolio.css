@@ -1,5 +1,6 @@
 header {
     position: fixed;
+    z-index: 2;
     left: 0;
     top: 0;
     width: 100%;
@@ -20,7 +21,6 @@ header {
     font-size: 32px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: fixed;
-    left: 200px;
     top: 0
 }
 
@@ -31,8 +31,6 @@ header {
     text-align: center;
     width: 330px;
     position: fixed;
-    right: 55px;
-    top: 20px;
 }
 
 
@@ -82,7 +80,6 @@ body {
 }
 
 .container {
-    
     color: #777777;
     background-color: #ffffff;
     padding: 20px 20px 20px 20px;
@@ -206,3 +203,225 @@ footer {
     border-top: 7px solid #4aaaa5
 }
 
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: gray;
+    text-decoration: none;
+}
+
+/* Small devices (landscape phones) */
+@media only screen and (max-width: 480px) {
+    #yourname {
+        color: white;
+        background-color: #4aaaa5;
+        height: 100px;
+        width: 480px;
+        font-size: 32px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        top: 0;
+        text-align: center;
+        }
+    
+    header {
+            position: fixed;
+            left: 0;
+            top: 0;
+            background-color:#113533;
+            color: #777777;
+            border-bottom: 3px solid #cccccc;
+            height: 100px;
+            width: 480px;
+        }
+    
+    
+    .links {
+            background-color: white;
+            width: 480px;
+            top: 80px;
+            text-align: center;
+            padding-left: 80px;
+            border-bottom: 2px solid #cccccc;
+            height: 50px;
+            padding-top: 20px;
+        }
+    
+    .container {
+        width: 350px;
+        margin-left: 30px;
+        margin-right: 20px;
+        }
+
+    .container1 {
+        margin-left: 60px;
+        }
+    
+    .container2 {
+        margin-left: 60px;
+        }
+
+    .container3 {
+        margin-left: 60px;
+        }
+
+    .traveltext {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        width: 220px;
+        bottom: 320px;
+        text-align: center;
+        font-size: 20px;
+        left: 0px;
+        }
+
+    .cooktext {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        width: 220px;
+        bottom: 45px;
+        text-align: center;
+        font-size: 20px;
+        left: 0px;
+        }
+
+    .DYItext {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        width: 220px;
+        bottom: 320px;
+        text-align: center;
+        font-size: 20px;
+        left: 0px;
+        }
+
+    .GCtext {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        width: 220px;
+        bottom: 45px;
+        text-align: center;
+        font-size: 20px;
+        left: 0px;
+        }
+
+    .pubtext {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        width: 220px;
+        bottom: 45px;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 0px;
+        }
+    }
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 485px) {
+    #yourname {
+        left: 20px;
+    }
+    .links {
+        right: 20px;
+        top: 40px;
+    }
+
+.container {
+    position: absolute;
+    color: #777777;
+    font-family: "sans-serif";
+    font-size: 20px;
+    line-height: 28px;
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    margin-top: 150px;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 900px;
+    }
+
+.container1 {
+    width: 600px;
+    margin-left: 200px;
+    }
+
+.container2 {
+    width: 600px;
+    margin-left: 200px;
+    }
+
+.container3 {
+    width: 600px;
+    margin-left: 200px;
+    }
+
+.traveltext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 220px;
+    text-align: center;
+    font-size: 20px;
+    left: 0px;
+    }
+
+.cooktext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 220px;
+    text-align: center;
+    font-size: 20px;
+    right: 110px;
+    }
+
+.DYItext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 220px;
+    text-align: center;
+    font-size: 20px;
+    left: 0px;
+    }
+
+.GCtext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 220px;
+    text-align: center;
+    font-size: 20px;
+    right: 105px;
+    }
+
+.pubtext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 220px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 0px;
+    }
+}
